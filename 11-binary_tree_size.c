@@ -3,7 +3,7 @@
 /**
  * binary_tree_size - Calcule la taille d'un arbre binaire
  * @tree : Pointeur vers la racine de l'arbre à mesurer
- * Return : La taille de l'arbre binaire ou 0 si 'tree' est NULL
+ * Return : Taille de l'arbre binaire ou 0 si tree est NULL
  */
 
 size_t binary_tree_size(const binary_tree_t *tree)
