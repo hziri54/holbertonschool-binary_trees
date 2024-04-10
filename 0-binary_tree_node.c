@@ -1,14 +1,13 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_node - fonction qui crée un nœud d'arbre binaire
+ * binary_tree_node - Crée un nouveau nœud d'arbre binaire
+ * @parent: pointeur vers le nœud parent du nœud à créer
+ * @value: la valeur à mettre dans le nouveau nœud
  *
- * @parent : pointeur sur le nœud parent du nœud à créer
- *
- * @value : la valeur à mettre dans le nouveau noeud.
- *
- * Retour : NULL en cas d'erreur ou pointeur sur le nouveau noeud.
-*/
+ * Return: pointeur vers le nouveau nœud en
+ * cas de succès, NULL en cas d'échec
+ */
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {

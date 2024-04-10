@@ -1,12 +1,10 @@
 #include "binary_trees.h"
-
 /**
- * binary_tree_is_leaf - fonction qui vérifie si un noeud est une feuille
+ * binary_tree_is_leaf - Vérifie si un nœud est une feuille
+ * @node: un pointeur vers le nœud à vérifier
  *
- * @node : est un pointeur sur le nœud à vérifier.
- *
- * Retour : 1 si le noeud est une feuille, sinon 0.
-*/
+ * Return: 1 si le nœud est une feuille, 0 sinon
+ */
 
 int binary_tree_is_leaf(const binary_tree_t *node)
 {
