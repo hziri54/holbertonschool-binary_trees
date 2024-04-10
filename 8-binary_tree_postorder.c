@@ -3,7 +3,7 @@
 
 /**
  * binary_tree_postorder - parcourt un arbre binaire
- * en utilisant un parcours dans l'ordre
+ * en utilisant un parcours post-ordre.
  * @tree : un pointeur sur le noeud racine de l'arbre à parcourir
  * @func : un pointeur sur une fonction à appeler pour chaque noeud
  */
