@@ -5,7 +5,7 @@
  *
  * @tree : ptr
  *
- * Return : ...
+ * Return : Hauteur de l'arbre, ou 0 si l'arbre est NULL
  */
 int binary_tree_balance(const binary_tree_t *tree)
 {
