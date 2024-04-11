@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_balance - mesure la hauteur d'un arbre binaire
+ * binary_tree_balance - Mesure le facteur d'équilibre d'un arbre binaire.
  *
- * @tree : ptr
+ * @tree: Pointeur vers le nœud racine de l'arbre à mesurer.
  *
- * Return : Hauteur de l'arbre, ou 0 si l'arbre est NULL
+ * Return: Si l'arbre est NULL,retourne 0 Sinon retourne le facteur d'équilibr
  */
 int binary_tree_balance(const binary_tree_t *tree)
 {
@@ -14,12 +14,13 @@ int binary_tree_balance(const binary_tree_t *tree)
 
 	return (0);
 }
+
 /**
- * binary_tree_height - fonction qui mesure la hauteur d'un arbre binaire
+ * binary_tree_height - Mesure la hauteur d'un arbre binaire.
  *
- * @tree : pointeur sur le noeud racine pour mesurer la hauteur
+ * @tree: Pointeur vers le nœud racine pour mesurer la hauteur.
  *
- * Retour : si l'arbre est NULL, retournez 0, sinon retournez la hauteur de l'arbre.
+ * Return:Si l'arbre est NULL, retourne 0 Sinon retourne la hauteur de l'arbre.
  */
 size_t binary_tree_height(const binary_tree_t *tree)
 {
