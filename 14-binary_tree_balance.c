@@ -7,7 +7,6 @@
  *
  * Return : ...
  */
-
 int binary_tree_balance(const binary_tree_t *tree)
 {
 	if (tree)
@@ -15,7 +14,6 @@ int binary_tree_balance(const binary_tree_t *tree)
 
 	return (0);
 }
-
 /**
  * binary_tree_height - fonction qui mesure la hauteur d'un arbre binaire
  *
@@ -23,7 +21,6 @@ int binary_tree_balance(const binary_tree_t *tree)
  *
  * Retour : si l'arbre est NULL, retournez 0, sinon retournez la hauteur de l'arbre.
  */
-
 size_t binary_tree_height(const binary_tree_t *tree)
 {
 	if (tree)
