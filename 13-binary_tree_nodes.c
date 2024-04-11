@@ -1,17 +1,16 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_nodes - fonction qui compte les noeuds ayant
- * au moins 1 enfant dans un arbre binaire
+ * binary_tree_nodes - Fonction qui compte les noeuds ayant au moins un enfant
+ * dans un arbre binaire.
  *
- * @tree : pointeur sur le noeud racine de l'arbre pour compter le nombre de noeuds
+ * @tree: Pointeur vers le noeud racine de l'arbre.
  *
- * Retour : si l'arbre est NULL, retournez 0, sinon comptez le nombre de noeuds.
+ * Return: Si l'arbre est NULL, retourne 0. Sinon, retourne le nombre de noeud
  */
-
 size_t binary_tree_nodes(const binary_tree_t *tree)
 {
-	size_t child = 0;
+	size_t child;
 
 	if (tree == NULL)
 		return (0);
